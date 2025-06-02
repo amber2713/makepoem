@@ -56,7 +56,7 @@
       const prompt = `根据以下关键词写一首中文小诗（两到三句）：${keywords}\n\n`;
       const model = "uer/gpt2-chinese-poem";
       const url = `https://api-inference.huggingface.co/models/${model}`; 
-      const apiKey = ""; // 替换为你自己的 API Key
+      const apiKey = "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"; // 替换为你自己的 API Key
 
       const response = await fetch(url, {
         method: "POST",
@@ -98,7 +98,7 @@
 
       const model = "Helsinki-NLP/opus-mt-zh-en";
       const url = `https://api-inference.huggingface.co/models/${model}`; 
-      const apiKey = ""; // 同上，替换为你自己的 API Key
+      const apiKey = "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"; // 同上，替换为你自己的 API Key
 
       const response = await fetch(url, {
         method: "POST",
